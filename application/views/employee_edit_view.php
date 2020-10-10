@@ -16,7 +16,7 @@
     <div id="signupbox" style=" margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
         <div class="panel panel-info">
             <div class="panel-heading">
-                <div class="panel-title">Add Employee</div>
+                <div class="panel-title">Update Employee</div>
             </div>  
             <div class="panel-body" >
                     <form  class="form-horizontal" method="post" enctype="multipart/form-data" action="<?php echo base_url('employee/edit/'.$emp_by_id->emp_id) ?>">
