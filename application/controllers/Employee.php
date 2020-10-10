@@ -75,7 +75,7 @@ class Employee extends CI_Controller {
 		if($this->input->post()){
 
 		$this->form_validation->set_rules('name','Name','trim|required');
-	    $this->form_validation->set_rules('email','Email','trim|required|valid_email|is_unique[tbl_employee.emp_email]');
+	    $this->form_validation->set_rules('email','Email','trim|required|valid_email');
 	    $this->form_validation->set_rules('phone','Phone','trim|required|numeric');
 	    $this->form_validation->set_rules('dob','Date of Birth','trim|required');
 	    $this->form_validation->set_rules('address','Address','trim|required');
